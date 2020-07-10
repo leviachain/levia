@@ -5,5 +5,5 @@ WORKDIR /levia
 RUN cargo build --release
 
 EXPOSE 9944
-ENTRYPOINT ["target/release/node-template"]
+ENTRYPOINT ["target/release/levia-node"]
 CMD ["--dev", "--ws-external", "--rpc-external"]

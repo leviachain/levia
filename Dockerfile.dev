@@ -2,4 +2,4 @@ FROM yukijs/levia:latest
 
 ADD . /levia
 WORKDIR /levia
-RUN cargo check
+RUN cargo check --release
