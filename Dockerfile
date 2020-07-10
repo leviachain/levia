@@ -1,4 +1,4 @@
-FROM paritytech/ci-linux:latest
+FROM paritytech/ci-linux:production
 
 ADD . /levia
 WORKDIR /levia
