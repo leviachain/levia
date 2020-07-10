@@ -1,18 +1,18 @@
 [package]
-authors = ['Substrate DevHub <https://github.com/substrate-developer-hub>']
+authors = ['Levia']
 build = 'build.rs'
-description = 'Substrate Node template'
+description = 'Levia Node'
 edition = '2018'
-homepage = 'https://substrate.dev'
-license = 'Unlicense'
-name = 'node-template'
-repository = 'https://github.com/substrate-developer-hub/substrate-node-template/'
-version = '2.0.0-rc4'
+homepage = 'https://levia.io'
+license = 'MIT'
+name = 'levia-node'
+repository = 'https://github.com/leviachain/levia'
+version = '0.0.1'
 [package.metadata.docs.rs]
 targets = ['x86_64-unknown-linux-gnu']
 
 [[bin]]
-name = 'node-template'
+name = 'levia-node'
 
 [dependencies]
 futures = '0.3.4'
@@ -20,9 +20,9 @@ log = '0.4.8'
 parking_lot = '0.10.0'
 structopt = '0.3.8'
 
-[dependencies.node-template-runtime]
+[dependencies.levia-node-runtime]
 path = '../runtime'
-version = '2.0.0-rc4'
+version = '0.0.1'
 
 [dependencies.sc-basic-authorship]
 git = 'https://github.com/paritytech/substrate.git'

@@ -185,13 +185,14 @@ tag = 'v2.0.0-rc4'
 version = '2.0.0-rc4'
 
 [package]
-authors = ['Substrate DevHub <https://github.com/substrate-developer-hub>']
+authors = ['Levia']
+description = 'Levia Node'
 edition = '2018'
-homepage = 'https://substrate.dev'
-license = 'Unlicense'
-name = 'node-template-runtime'
-repository = 'https://github.com/substrate-developer-hub/substrate-node-template/'
-version = '2.0.0-rc4'
+homepage = 'https://levia.io'
+license = 'MIT'
+name = 'levia-node'
+repository = 'https://github.com/leviachain/levia'
+version = '0.0.1'
 [package.metadata.docs.rs]
 targets = ['x86_64-unknown-linux-gnu']
 [build-dependencies.wasm-builder-runner]
