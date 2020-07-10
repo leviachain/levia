@@ -190,7 +190,7 @@ description = 'Levia Node'
 edition = '2018'
 homepage = 'https://levia.io'
 license = 'MIT'
-name = 'levia-node'
+name = 'levia-node-runtime'
 repository = 'https://github.com/leviachain/levia'
 version = '0.0.1'
 [package.metadata.docs.rs]
