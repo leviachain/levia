@@ -58,7 +58,6 @@ tag = 'v2.0.0-rc5'
 version = '2.0.0-rc5'
 
 [dependencies.serde]
-default-features = false
 features = ['derive']
 optional = true
 version = '1.0.101'
@@ -179,7 +178,7 @@ std = [
     'frame-support/std',
     'grandpa/std',
     'randomness-collective-flip/std',
-    'serde/std',
+    'serde',
     'sp-api/std',
     'sp-block-builder/std',
     'sp-consensus-aura/std',
