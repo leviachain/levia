@@ -21,10 +21,11 @@ use crate::service;
 use sc_cli::{SubstrateCli, RuntimeVersion, Role, ChainSpec};
 use sc_service::ServiceParams;
 use crate::service::new_full_params;
+use levia_node_runtime;
 
 impl SubstrateCli for Cli {
-	fn impl_name() -> &'static str {
-		"Levia Node"
+	fn impl_name() -> String {
+		"Levia Node".into()
 	}
 
 	fn impl_version() -> String {
@@ -39,8 +40,8 @@ impl SubstrateCli for Cli {
 		env!("CARGO_PKG_AUTHORS").into()
 	}
 
-	fn support_url() -> &'static str {
-		"levia.io"
+	fn support_url() -> String {
+		"levia.io".into()
 	}
 
 	fn copyright_start_year() -> i32 {
@@ -58,7 +59,7 @@ impl SubstrateCli for Cli {
 	}
 
 	fn native_runtime_version(_: &Box<dyn ChainSpec>) -> &'static RuntimeVersion {
-		&node_template_runtime::VERSION
+		&levia_node_runtime::VERSION
 	}
 }
 

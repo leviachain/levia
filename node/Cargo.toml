@@ -16,7 +16,6 @@ name = 'levia-node'
 
 
 [dependencies.levia-node-runtime]
-
 path = '../runtime'
 version = '0.0.1'
 
